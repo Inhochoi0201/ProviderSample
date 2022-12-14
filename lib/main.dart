@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:untitled/ConsumerTestPage.dart';
 import 'package:untitled/TestPage.dart';
 import 'package:untitled/Test_Provider.dart';
 
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const TestPage(title: 'Provider Demo Test Page'),
+        home: const ConsumerTestPage(title: 'Consumer Demo Test Page',)
+        // const TestPage(title: 'Provider Demo Test Page'),
       ),
     );
   }
